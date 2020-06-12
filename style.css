@@ -1,0 +1,52 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f4f4f4;
+  border: 1px #dcdcdc;
+  border-spacing: 10px;
+  margin-top: 20px;
+}
+
+.container .item {
+  width: 32.5%;
+}
+
+.box > * {
+  flex: 1 1 160px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#checked {
+  background-color: #cfe3ff;
+}
+
+#custom_button {
+  background-color: #cecece;
+  height: 50px;
+  margin-top: 18px;
+}
+
+#custom_button :hover {
+  background-color: #e0e0e0;
+}
+
+#results {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.h2 {
+  margin-bottom: 18px;
+}
+
+.chosen_container .item{
+  opacity: 0.6;
+}
